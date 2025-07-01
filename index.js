@@ -15,7 +15,7 @@ closenav.addEventListener("click",function () {
 
 //product search functionalitys
 var productcontainer = document.getElementById("product-container")
-var productlist = productcontainer.querySelectorAll("div")
+var productlist = productcontainer.querySelectorAll("")
 var search = document.getElementById("search")
 search.addEventListener("keyup",function() {
     var enteredvalue =event.target.value.toUpperCase()
